@@ -12,8 +12,10 @@ body{
 }
 .willowlodge{
   background-image: url(The-Willow-Lodge.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center ;
+  background-repeat: no-repeat;
   text-indent: -9999px;
+  flex-shrink: 0;
 }
 
