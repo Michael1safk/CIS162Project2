@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "header header"
+                         "home    home"
+                         "sections  articles"
+                          "footer   footer";
+    grid-column-gap: 15px;
+    background-color: forestgreen;
+}
+.willowlodge{
+  background-image: url(The-Willow-Lodge.png);
+  background-size: cover;
+  background-position: center ;
+  text-indent: -9999px;
+}
+
